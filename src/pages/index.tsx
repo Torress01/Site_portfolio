@@ -1,3 +1,4 @@
+import { AboutMe } from "@/components/commons/Home/AboutMe";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -6,10 +7,12 @@ const Home = () => {
     <>
       <Head>
         <title>Sobre mim | Vitor</title>
+        <meta name="description" content="Sou um Estudante de engenharia de software apaixonado em aprender" />
       </Head> 
       <main>
-        <h1>Hello world com Next.js</h1>
-        <Link href="/contatos">Ir para a página Contatos</Link>
+        <div className="py-12 px-6 md:px-32 space-y-10 md:space-y-28">
+          <AboutMe />
+        </div>
       </main>
     </>
   )

@@ -9,10 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'v-gray-500': '#737994',
+        'v-blue-500': '#8CAAEE',
+        'v-blue-900': '#303446',
+      },
+      width: {
+        120: '30rem',
+        125: '31.25rem',
+      },
+      height: {
+        125: '31,25rem'
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};
