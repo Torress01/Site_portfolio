@@ -1,4 +1,4 @@
-import { AboutMe } from "@/components/commons/Home/AboutMe";
+import { AboutMe } from "@/components/Home/AboutMe";
 import Head from "next/head";
 
 const Home = () => {
